@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.javahelp.viewpagerindicator"
+    android:versionCode="65"
+    android:versionName="2.4.1">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:label="ViewPagerIndicator Sample"
+        android:icon="@drawable/ic_launcher">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="ViewPager Indicator">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        <activity
+            android:name=".CircleDefault"
+            android:label="CircleDefault">
+
+            <intent-filter>
+                <action android:name="android.intent.action.CircleDefault" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".CircleThemedJava"
+            android:label="CircleThemedJava">
+
+            <intent-filter>
+                <action android:name="android.intent.action.CircleThemedJava" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CircleThemedXml"
+            android:label="CircleThemedXml">
+
+            <intent-filter>
+                <action android:name="android.intent.action.CircleThemedXml" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+               <activity
+            android:name=".LinesDefault"
+            android:label="LinesDefault">
+
+            <intent-filter>
+                <action android:name="android.intent.action.LinesDefault" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".LinesThemedJava"
+            android:label="LinesThemedJava">
+
+            <intent-filter>
+                <action android:name="android.intent.action.LinesThemedJava" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LinesThemedXml"
+            android:label="LinesThemedXml">
+
+            <intent-filter>
+                <action android:name="android.intent.action.LinesThemedXml" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".UnderlineDefault"
+            android:label="UnderlineDefault">
+
+            <intent-filter>
+                <action android:name="android.intent.action.UnderlineDefault" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".UnderlineThemedJava"
+            android:label="UnderlineThemedJava">
+
+            <intent-filter>
+                <action android:name="android.intent.action.UnderlineThemedJava" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".UnderlineThemedXml"
+            android:label="UnderlineThemedXml">
+
+            <intent-filter>
+                <action android:name="android.intent.action.UnderlineThemedXml" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
